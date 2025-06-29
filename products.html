@@ -1,0 +1,61 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tapper Kluddin | Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+
+  <!-- Reuse Header -->
+  <header>
+    <div class="logo">Tapper <span>Kluddin</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+         <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Listings -->
+  <section class="product-page">
+    <h2>Our Latest Arrivals</h2>
+    <div class="product-grid">
+      <!-- Each product card -->
+      <div class="product-card">
+        <img src="IMG-20250623-WA0056.jpg" alt="Classic Wear" />
+        <h3>Classic Wear</h3>
+        <p>GHS 120</p>
+        <button onclick="addToCart('Classic Wear', 220)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="IMG-20250623-WA0057.jpg" alt="Urban Confidence" />
+        <h3>Urban Confidence</h3>
+        <p>GHS 220</p>
+        <button onclick="addToCart('Urban Confidence', 120)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="IMG-20250623-WA0055.jpg" alt="Modern Twist" />
+        <h3>Modern Twist</h3>
+        <p>GHS 180</p>
+        <button onclick="addToCart('Modern Twist', 180)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tapper Kluddin. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
